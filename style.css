@@ -1,0 +1,139 @@
+body{
+
+    background-image: url(hct.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+.continscription #mainRow .row{
+  flex-direction: column;
+  
+}
+.img_wite{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.continscription #mainRow .rowf{
+  display: contents;
+}
+#inscriptionPage1 {
+    height: 780px;
+    margin-top: 19px;
+    text-align: center;
+  }
+  .para{
+    text-align: justify;
+  }
+  .continscription {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    background-color: white;
+    opacity: 50%;
+  }
+  .continscription:hover{
+      opacity: 100%;
+      background-color: rgb(255, 254, 254);
+  }
+  .continscription {
+    overflow: hidden;
+  }
+  .continscription #mainRow {
+    width: 80%;
+    margin: auto;
+    margin-top: 42.6px;
+  }
+  .continscription #mainRow .row #inputText {
+    width: 209%;
+    height: 35px;
+    border: none;
+    border-bottom: 3px solid;
+    margin-bottom: 30px;
+  }
+  .continscription #mainRow .row #inputText:hover,.continscription #mainRow .row #inputText:focus{
+    border-bottom: red 2px solid;
+    /* box-shadow: 3px 2px 1px red; */
+    outline: none;
+
+  }
+  .continscription #mainRow .row #submit {
+    width: 80%;
+    height: 35px;
+    border: none;
+    background-color: crimson;
+  }
+ .d-flex{
+     width: 19%;
+     justify-content: space-evenly;
+ }
+ 
+ .maa{
+     margin-top: 50px;
+     display: flex;
+ }
+/* vido bg  */
+.section_1 {
+  width: 100%;
+  /* height: 200px; */
+  position: relative;
+  overflow: hidden;
+}
+.section_1 .vid {
+  height: 100%;
+  position: fixed;
+  z-index: -100;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.section_1 .vid video {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.part_write{
+  background-color: black;
+  width: 45%;
+  height: 519px;
+}
+
+ @media (max-width: 720px){
+.btn{
+    position: relative;
+    left: -27px;
+}
+.continscription{
+    height: 690px;
+    opacity: 100%;
+}
+body{
+    height: 770px;
+    background-position: center;
+    background-size: cover;
+ }
+ .continscription #mainRow{
+     position: relative;
+     left: 50px;
+ }
+ .d-flex{
+     width: 24%;
+     justify-content: space-between;
+ }
+ .ft{
+     position: relative;
+     top: 260px;
+ }
+ .col-md-6{
+   display: contents;
+ }
+
+
+
+
+}
+  
